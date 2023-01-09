@@ -78,6 +78,7 @@ public class Manager {
 		String empTask = sc.next();
 		Employee e = Employee.employeeList.get(empId);
 		e.employeeTask = empTask;
+		e.taskStatus = "In-progress";
 		managerEmployeeList.put(empId, e);
 		Employee.employeeList.replace(empId, e);
 		System.out.println("--------------------Task assigned successfully");

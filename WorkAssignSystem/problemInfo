@@ -1,0 +1,7 @@
+ - Create a system in which users can login, users can be of two types. 1 - Managers, 2- Employees.
+ - Managers can assign task to their employees, employees can make transitions to tasks, such as 
+   in-progress, on-hold, completed. 
+ - Manager should be able to view the task summary of employees under him, different managers 
+   will have different employees, and each manager will have access to only employees who work under him.
+ - Managers should not be able to make any state transitions to their subordinates' tasks.
+ - managers will be able to add their own employees, and avanga add panna employees dhan avanga keezha work panra employees
